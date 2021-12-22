@@ -17,4 +17,4 @@ jobs:
     - name: Pylint
       run: pylint *.py
     - name: pytest
-      run: pytest ls -R|grep test_*.py$|xargs
+      run: pytest test_*.py
