@@ -15,6 +15,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint pytest flask
     - name: pylint
-      run: pylint 'ls -R|grep .py$|xargs'
+      run: pylint ls -R|grep .py$|xargs
     - name: pytest
-      run: pytest 'ls -R|grep test_*.py$|xargs'
+      run: pytest ls -R|grep test_*.py$|xargs
