@@ -1,7 +1,8 @@
-#Estudiante     : 	José Andrés Gómez
-#Módulo         :	1
-#Actividad Final :  Flask
-
+"""
+Estudiante     : 	José Andrés Gómez
+Módulo         :	1
+Actividad Final :  Flask
+"""
 def guardar_pedido(nombres, apellidos):
     """
     Metodo Para Guardar Pedido
