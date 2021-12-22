@@ -16,5 +16,5 @@ jobs:
         pip install pylint pytest flask
     - name: Pylint
       run: pylint *.py
-    - name: pytest
+    - name: Pytest
       run: pytest test_*.py
