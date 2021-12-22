@@ -1,3 +1,6 @@
+"""
+    App.py Principal
+"""
 from flask import Flask, request, redirect
 from persistencia import guardar_pedido
 
@@ -6,7 +9,7 @@ app = Flask(__name__)
 @app.route("/pizza",methods=['POST'])
 def pizza():
     """
-    Metodo Pizza
+    Metodo Pizza para registrar pedido
     """
     nombre = request.form.get("nombre")
     apellido = request.form.get("apellido")
